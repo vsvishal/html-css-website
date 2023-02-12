@@ -1,0 +1,98 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url("/images/gym-ge2a25251e_1280.png");
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.left {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 15px;
+    top:20px;
+}
+
+.mid {
+    /* border: 2px solid green; */
+    display: block;
+    margin: 20px auto;
+    width: 40%;
+}
+
+.right {
+    /* border: 2px solid blue; */
+    display: inline-block;
+    position: absolute; 
+    right: 15px;
+    top: 20px;
+
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    padding: 30px 12px;
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.left img {
+    width: 60px;
+    height: 50px;
+    padding-left: 20px;
+}
+
+.left div {
+    text-align: center;
+}
+
+.btn {
+    margin: 0px 8px;
+    padding: 5px 15px;
+    background-color: black;
+    color: white;
+    /* border: 2px solid grey; */
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.btn:hover {
+    background-color: grey;
+}
+
+.container {
+    /* border: 2px solid yellow; */
+    margin: 74px 130px;
+    padding: 30px;
+    width: 43%;
+    border-radius: 10px;
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 321px;
+    padding: 9px;
+    margin: 10px auto;
+    /* border: 2px solid black; */
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 52%;
+    margin: auto;
+    padding: 8px;
+    font-size: 16px;
+}
