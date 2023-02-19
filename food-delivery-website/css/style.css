@@ -1,0 +1,149 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+/* CSS Variable */
+:root{
+    --navbar-height: 60px;
+}
+
+/* Navigation Bar */
+#navbar {
+    position: relative;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+/* Navigation Bar List Styling */
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding: 3px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+
+/* Navigation Bar Logo and Image */
+#logo {
+    margin: 5px 26px;;
+}
+
+#logo img{
+    height: 70px;
+    width: 90px;
+    /* margin: 30px 35px; */
+}
+
+
+/* Home Section */
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 200px;
+    height: 400px;
+}
+
+#home::before {
+    content: "";
+    background: url("/bg1.jpg") no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+#home h1 {
+    color: white;
+    text-align: center;
+}
+
+#home p {
+    color: white;
+    font-size: 1.0rem;
+    text-align: center;
+}
+
+
+/* Sevices section */
+#servcies{
+    margin: 34px;
+    display: flex;
+}
+
+.services-container{
+    margin: 160px 0px;
+}
+
+.box {
+    border: 2px solid brown;
+    margin: 3px 6px;
+    padding: 25px;
+    border-radius: 15px;
+    background-color: #e1ecec;
+}
+
+.box img {
+    height: 160px;
+    display: block;
+    margin: auto;
+}
+
+/* Utility classes */
+.h-primary {
+    font-size: 2.0rem;
+    padding: 12px;
+}
+.h-secondary {
+    font-size: 1.5rem;
+    padding: 12px;
+}
+
+.btn {
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    margin: 18px;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.0rem;
+    cursor: pointer;
+}
+
+.center {
+    text-align: center;
+}
